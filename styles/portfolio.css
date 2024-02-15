@@ -20,6 +20,7 @@
 
   .work-inquiry a {
     font-size: 10px;
+    padding: 18px 15px;
   }
 }
 
@@ -122,5 +123,8 @@ footer {
   h1 {
     font-size: 44px;
     line-height: 2;
+  }
+  .hero {
+    padding: 0;
   }
 }
