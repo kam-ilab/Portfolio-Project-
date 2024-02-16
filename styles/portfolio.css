@@ -128,3 +128,43 @@ footer {
     padding: 0;
   }
 }
+
+.container-about {
+  padding: 80px 20px;
+  text-align: center;
+
+  h1 {
+    font-family: var(--heading-font-family);
+    font-size: 64px;
+    line-height: 80px;
+  }
+
+  h2 {
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: var(--default-font-family);
+    font-size: 16px;
+  }
+
+  a {
+    font-weight: 600;
+  }
+
+  img {
+    position: relative;
+    left: 5px;
+    bottom: 20px;
+    border-radius: 10px;
+    width: 480px;
+    height: 480px;
+  }
+}
+
+.container-about-content {
+  position: relative;
+  left: 20px;
+}
