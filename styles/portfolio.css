@@ -157,7 +157,7 @@ footer {
   img {
     position: relative;
     left: 5px;
-    bottom: 20px;
+    bottom: 10px;
     border-radius: 10px;
     width: 480px;
     height: 480px;
@@ -167,4 +167,45 @@ footer {
 .container-about-content {
   position: relative;
   left: 20px;
+}
+
+footer p {
+  font-weight: normal;
+}
+
+.intersteller {
+  h1 {
+    font-family: var(--heading-font-family);
+    font-size: 50px;
+    font-weight: 900px;
+    line-height: 85.31px;
+    margin: 50px;
+  }
+}
+
+.container-work {
+  h3 {
+    font-family: var(--default-font-family);
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  p {
+    font-family: var(--default-font-family);
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 21px;
+    text-align: center;
+  }
+
+  a {
+    position: relative;
+    left: 220px;
+  }
+
+  img {
+    margin: 50px;
+  }
 }
