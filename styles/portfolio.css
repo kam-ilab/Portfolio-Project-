@@ -31,6 +31,20 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+.nav-link.active {
+  color: var(--branding-color);
+}
+
+.container-fluid {
+  img {
+    margin-left: 23px;
+  }
+
+  a {
+    transition: all 100ms ease-in-out;
+  }
+}
+
 .hero h1 {
   font-family: var(--heading-font-family);
   font-weight: 700px;
@@ -95,6 +109,7 @@ p {
 .work-inquiry {
   background-color: var(--accent-color);
   padding: 50px 50px;
+  margin: 48px;
 }
 
 .work-inquiry h3 {
@@ -204,8 +219,13 @@ footer p {
     position: relative;
     left: 220px;
   }
+  .row {
+    margin: 10px;
+    padding: 20px 15px;
+  }
 
   img {
     margin: 50px;
+    vertical-align: middle;
   }
 }
