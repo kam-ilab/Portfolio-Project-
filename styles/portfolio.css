@@ -16,12 +16,37 @@
   .hero a {
     font-size: 10px !important;
     padding: 5px 5px !important;
+    margin-bottom: 20px !important;
   }
+}
 
-  .work-inquiry a {
+.container {
+  h1 {
+    font-size: 35px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+}
+
+.work-inquiry {
+  margin: 20px 20px;
+  a {
     font-size: 10px;
     padding: 18px 15px;
   }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+}
+
+.container-about h1 {
+  font-size: 20px;
 }
 
 :root {
@@ -108,19 +133,24 @@ p {
 
 .work-inquiry {
   background-color: var(--accent-color);
-  padding: 50px 50px;
-  margin: 48px;
-}
+  padding: 40px 30px;
+  margin: 60px 60px;
 
-.work-inquiry h3 {
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-  font-size: 36px;
-}
+  h3 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 48px;
+  }
 
-.work-inquiry a {
-  position: relative;
-  top: 30px;
+  p {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+  }
 }
 
 footer {
@@ -191,7 +221,7 @@ footer p {
 .intersteller {
   h1 {
     font-family: var(--heading-font-family);
-    font-size: 50px;
+    font-size: 57px;
     font-weight: 900px;
     line-height: 85.31px;
     margin: 50px;
@@ -204,15 +234,12 @@ footer p {
     font-weight: 900;
     font-size: 24px;
     line-height: 36px;
-    text-align: center;
   }
 
   p {
     font-family: var(--default-font-family);
-    opacity: 0.7;
     font-size: 14px;
     font-weight: 21px;
-    text-align: center;
   }
 
   a {
