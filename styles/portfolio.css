@@ -235,7 +235,7 @@ footer p {
   }
 
   h3 {
-    font-weight: 36px;
+    font-weight: 44px;
     font-size: 20px;
     font-family: var(--default-font-family);
     margin: 50px;
@@ -280,6 +280,7 @@ footer p {
     position: relative;
     left: 220px;
   }
+
   .row {
     margin: 10px;
     padding: 20px 15px;
