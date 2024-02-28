@@ -228,25 +228,25 @@ footer p {
 .intersteller {
   h1 {
     font-family: var(--heading-font-family);
-    font-size: 57px;
+    font-size: 45px;
     font-weight: 900px;
-    line-height: 85.31px;
+    line-height: 70px;
     margin: 50px;
   }
 
   h3 {
     font-weight: 44px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--default-font-family);
     margin: 50px;
-    line-height: 1px;
+    line-height: 0.1;
   }
 
   p {
     margin: 50px;
-    line-height: 1px;
+    line-height: 0.1;
     color: blue;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   a {
