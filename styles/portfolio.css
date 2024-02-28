@@ -27,26 +27,26 @@
   p {
     font-size: 14px !important;
   }
-}
 
-.work-inquiry {
-  margin: 20px 20px;
-  a {
-    font-size: 10px;
-    padding: 18px 15px;
+  .work-inquiry {
+    margin: 20px 20px;
+    a {
+      font-size: 10px;
+      padding: 18px 15px;
+    }
+
+    h3 {
+      font-size: 26px;
+    }
+
+    p {
+      font-size: 11px;
+    }
   }
 
-  h3 {
-    font-size: 26px;
+  .container-about h1 {
+    font-size: 20px;
   }
-
-  p {
-    font-size: 11px;
-  }
-}
-
-.container-about h1 {
-  font-size: 20px;
 }
 
 :root {
@@ -90,8 +90,8 @@
     color: #272142;
   }
 
-  btn: hover {
-    color: var(--primary-color);
+  .btnbtn-branding: hover {
+    color: red;
     border: 1px solid var(--primary-color);
   }
 }
@@ -236,7 +236,7 @@ footer p {
 
   h3 {
     font-weight: 36px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: var(--default-font-family);
     margin: 50px;
     line-height: 1px;
@@ -246,10 +246,10 @@ footer p {
     margin: 50px;
     line-height: 1px;
     color: blue;
+    font-size: 15px;
   }
 
   a {
-    color: blue;
     text-decoration: none;
   }
 
