@@ -56,8 +56,34 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-.nav-link.active {
-  color: var(--branding-color);
+nav {
+  padding: 20px 20px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 60px;
+  margin-left: 15px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+  color: var(--primary-color);
 }
 
 .container-fluid {
