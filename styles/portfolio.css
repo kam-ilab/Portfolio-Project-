@@ -86,6 +86,10 @@ nav li.active a {
   color: var(--primary-color);
 }
 
+.logo {
+  max-height: 65px;
+}
+
 .container-fluid {
   img {
     margin-left: 23px;
@@ -114,11 +118,6 @@ nav li.active a {
     font-weight: bold;
     font-size: 36px;
     color: #272142;
-  }
-
-  .btnbtn-branding: hover {
-    color: red;
-    border: 1px solid var(--primary-color);
   }
 }
 
